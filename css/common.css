@@ -1,4 +1,4 @@
-root {
+:root {
   --main-bg-color: #ffffff;
   --secondary-bg-color: #f5f4fa;
   --primaty-text-color: #757575;
@@ -6,4 +6,35 @@ root {
   --white-text-color: #ffffff;
   --accent-bg-color: #2196f3;
   --footer-bg-color: #2f303a;
+}
+
+body {
+  color: var(--primaty-text-color);
+}
+
+/* header */
+.logo {
+  color: var(--accent-bg-color);
+}
+
+.logo-studio {
+  color: var(--title-text-color);
+}
+
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-bg-color);
+}
+
+.contact-nav .link {
+  color: var(--primaty-text-color);
+}
+
+.contact-nav .link:hover,
+.contact-nav .link:focus {
+  color: var(--accent-bg-color);
 }

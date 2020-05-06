@@ -1,0 +1,72 @@
+:root {
+  --main-bg-color: #ffffff;
+  --secondary-bg-color: #f5f4fa;
+  --primaty-text-color: #757575;
+  --title-text-color: #212121;
+  --white-text-color: #ffffff;
+  --accent-bg-color: #2196f3;
+  --footer-bg-color: #2f303a;
+}
+
+body {
+  color: var(--primaty-text-color);
+}
+
+/* header */
+.logo {
+  color: var(--accent-bg-color);
+}
+
+.logo-studio {
+  color: var(--title-text-color);
+}
+
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-bg-color);
+}
+
+.contact-nav .link {
+  color: var(--primaty-text-color);
+}
+
+.contact-nav .link:hover,
+.contact-nav .link:focus {
+  color: var(--accent-bg-color);
+}
+
+/* Hero */
+.hero-title {
+  color: var(--white-text-color);
+}
+
+/* section */
+
+.section-title {
+  color: var(--title-text-color);
+}
+
+.feature-list .title {
+  color: var(--title-text-color);
+}
+
+.feature-list .icon {
+  fill: var(--secondary-bg-color);
+}
+
+.feature-list .icon:hover {
+  fill: var(--accent-bg-color);
+}
+
+.service-title {
+  color: var(--white-text-color);
+  background-color: rgba(47, 48, 58, 0.8);
+}
+
+.team-title {
+  color: var(--title-text-color);
+}
