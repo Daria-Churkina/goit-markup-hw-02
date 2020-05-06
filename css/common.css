@@ -6,10 +6,16 @@
   --white-text-color: #ffffff;
   --accent-bg-color: #2196f3;
   --footer-bg-color: #2f303a;
+  --footer-main-color: rgba(255, 255, 255, 0.6);
+  --footer-bottom-text: rgba(255, 255, 255, 0.4);
 }
 
 body {
   color: var(--primaty-text-color);
+}
+
+footer {
+  background-color: var(--footer-bg-color);
 }
 
 /* header */
@@ -37,4 +43,33 @@ body {
 .contact-nav .link:hover,
 .contact-nav .link:focus {
   color: var(--accent-bg-color);
+}
+
+/* footer */
+.logo-studio-footer {
+  color: var(--white-text-color);
+}
+
+.address-street {
+  color: var(--white-text-color);
+}
+
+.address .link {
+  color: var(--footer-main-color);
+}
+
+.address .phone {
+  color: var(--footer-main-color);
+}
+
+.join {
+  color: var(--white-text-color);
+}
+
+.join-social .link:hover {
+  fill: var(--accent-bg-color);
+}
+
+.bottom-text {
+  color: var(--footer-bottom-text);
 }

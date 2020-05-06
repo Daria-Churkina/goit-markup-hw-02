@@ -70,3 +70,7 @@ body {
 .team-title {
   color: var(--title-text-color);
 }
+
+.social-icon:hover {
+  color: var(--accent-bg-color);
+}
