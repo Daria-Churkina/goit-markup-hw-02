@@ -1,0 +1,28 @@
+:root {
+  --main-bg-color: #ffffff;
+  --secondary-bg-color: #f5f4fa;
+  --primaty-text-color: #757575;
+  --title-text-color: #212121;
+  --white-text-color: #ffffff;
+  --accent-bg-color: #2196f3;
+  --footer-bg-color: #2f303a;
+  --footer-main-color: rgba(255, 255, 255, 0.6);
+  --footer-bottom-text: rgba(255, 255, 255, 0.4);
+}
+
+/* button */
+
+.button {
+  color: var(--title-text-color);
+  background-color: var(--secondary-bg-color);
+}
+
+.button:hover,
+.button:focus {
+  color: var(--white-text-color);
+  background-color: var(--accent-bg-color);
+}
+
+.project-list .title {
+  color: var(--title-text-color);
+}

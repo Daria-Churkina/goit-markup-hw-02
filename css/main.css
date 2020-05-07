@@ -74,3 +74,10 @@ body {
 .social-icon:hover {
   color: var(--accent-bg-color);
 }
+
+/* button */
+
+.button {
+  color: var(--white-text-color);
+  background-color: var(--accent-bg-color);
+}
