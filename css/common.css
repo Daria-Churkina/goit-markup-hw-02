@@ -12,6 +12,7 @@
 
 body {
   color: var(--primaty-text-color);
+  font-family: Roboto, sans-serif;
 }
 
 footer {
@@ -31,9 +32,17 @@ footer {
   color: var(--title-text-color);
 }
 
+.site-nav {
+  list-style: none;
+}
+
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-bg-color);
+}
+
+.contact-nav {
+  list-style: none;
 }
 
 .contact-nav .link {
@@ -64,6 +73,10 @@ footer {
 
 .join {
   color: var(--white-text-color);
+}
+
+.join-social {
+  list-style: none;
 }
 
 .join-social .link:hover {

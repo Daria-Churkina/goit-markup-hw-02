@@ -12,17 +12,27 @@
 
 /* button */
 
-.button {
+button {
   color: var(--title-text-color);
   background-color: var(--secondary-bg-color);
+  font-family: inherit;
 }
 
-.button:hover,
-.button:focus {
+button:hover,
+button:focus {
   color: var(--white-text-color);
   background-color: var(--accent-bg-color);
 }
 
+.project-list {
+  list-style: none;
+}
 .project-list .title {
   color: var(--title-text-color);
+}
+
+/* services */
+
+.service-list {
+  list-style: none;
 }
