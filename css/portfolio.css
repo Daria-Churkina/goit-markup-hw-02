@@ -16,6 +16,11 @@ button {
   color: var(--title-text-color);
   background-color: var(--secondary-bg-color);
   font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 button:hover,
@@ -29,6 +34,32 @@ button:focus {
 }
 .project-list .title {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.project-list .link {
+  text-decoration: none;
+}
+
+.project-list .type {
+  color: var(--primaty-text-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
+
+.project-list .text {
+  color: var(--white-text-color);
+  background-color: var(--accent-bg-color);
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
 }
 
 /* services */

@@ -22,17 +22,39 @@ footer {
 /* header */
 .logo {
   color: var(--accent-bg-color);
+  font-family: raleway, sans-serif;
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+
+  text-decoration: none;
 }
 
 .logo-studio {
   color: var(--title-text-color);
+  font-family: raleway, sans-serif;
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+
+  text-decoration: none;
 }
 
 .site-nav .link {
   color: var(--title-text-color);
+  text-decoration: none;
 }
 
 .site-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
   list-style: none;
 }
 
@@ -42,11 +64,16 @@ footer {
 }
 
 .contact-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   list-style: none;
 }
 
 .contact-nav .link {
   color: var(--primaty-text-color);
+  text-decoration: none;
 }
 
 .contact-nav .link:hover,
@@ -61,22 +88,46 @@ footer {
 
 .address-street {
   color: var(--white-text-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 .address .link {
   color: var(--footer-main-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 .address .phone {
   color: var(--footer-main-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 .join {
   color: var(--white-text-color);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .join-social {
   list-style: none;
+}
+
+.join-social .link {
+  text-decoration: none;
 }
 
 .join-social .link:hover {
@@ -85,4 +136,9 @@ footer {
 
 .bottom-text {
   color: var(--footer-bottom-text);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
