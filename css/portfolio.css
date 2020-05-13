@@ -30,9 +30,19 @@ button:focus {
 }
 
 .project-list {
+  margin: 0px;
+  padding: 0px;
   list-style: none;
 }
+
+.project-list .image {
+  margin-bottom: 20px;
+}
+
 .project-list .title {
+  margin: 0px;
+  margin-bottom: 4px;
+
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 18px;
@@ -45,6 +55,8 @@ button:focus {
 }
 
 .project-list .type {
+  margin: 0px;
+
   color: var(--primaty-text-color);
   font-weight: 700;
   font-size: 16px;
@@ -53,6 +65,8 @@ button:focus {
 }
 
 .project-list .text {
+  margin: 0px;
+
   color: var(--white-text-color);
   background-color: var(--accent-bg-color);
 
@@ -65,5 +79,9 @@ button:focus {
 /* services */
 
 .service-list {
+  margin: 0px;
+  padding: 0px;
+
+  margin-bottom: 34px;
   list-style: none;
 }
